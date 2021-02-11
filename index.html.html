@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    	<title>Formulario</title>
+        
+    </head>
+		<body>
+		<div class="container">
+		<form>
+			<div class="container" style="background: #8a8a8a; color:white"><h4>Datos Fiscales:</h4></div>
+			<div class="from-row">
+		<div class="from-group col-md-4">
+			<tr>
+				
+				<label for="inputpais">pais:</label>
+				<select class ="custom-select" id="selectestado">
+					<option selected disabled>selecciona un pais</option>
+					<option>México</option>
+					<option>E.U</option>
+			</select>
+    		</div>
+  			</div>
+			<div class="form-row">
+    		<div class="form-group col-md-4">
+      <label for="inputrfc">RFC:</label>
+      <input type="text" class="form-control" id="txtRFC">
+    </div>
+        <div class="form-group col-md-4">
+      <label for="inputNom1">Nombre o razón social:</label>
+      <input type="text" class="form-control" id="txtRazonSocial">
+    </div>
+  </div>
+          <div class="container" style="background: #8a8a8a; color: white"><h4>Datos de contacto:</h4></div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCalle">Calle:</label>
+      <input type="text" class="form-control" id="txtCalle">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnum">Numero exterior:</label>
+      <input type="text" class="form-control" id="txtNumExt">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnum">Numero interior:</label>
+      <input type="text" class="form-control" id="txtNumInt">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCol">Colonia:</label>
+      <input type="text" class="form-control" id="txtColonia">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputLoca">Localidad:</label>
+      <input type="text" class="form-control" id="txtLocalidad">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputref">Referencia:</label>
+      <input type="text" class="form-control" id="txtReferencia">
+    </div>
+  </div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputMun">Municipio:</label>
+      <input type="text" class="form-control" id="txtMunicipio">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputEstado">Estado:</label>
+<select class="custom-select" id="selectestado">
+    <option selected disabled>Selecciona un estado:</option>
+        <option>México</option>
+    <option>Jalisco</option>
+    <option>Michoacan</option>
+    <option>Nuevo leon</option>
+    <option>Chiapas</option>
+    <option>Baja california</option>
+    <option>Yucatan</option>
+    <option>Sinaloa</option>
+    <option>Sonora</option>
+    <option>Estado de Hidalgo</option>
+    <option>Tamaulipas</option>
+    <option>Morelos</option>
+    <option>Tabasco</option>
+    <option>Zacatecas</option>
+    <option>Guerrero</option>
+    <option>Coahuila</option>
+    <option>Quintana Roo</option>
+    <option>Tlaxcala</option>
+    <option>Nayarit</option>
+    <option>Guanajuato</option>
+    <option>Baja California Sur</option>
+    <option>Chihuahua</option>
+    <option>Veracruz</option>
+    <option>Puebla</option>
+    <option>Oaxaca</option>
+    <option>Querétaro</option>
+    <option>San luis Potosi</option>
+    <option>Durango</option>
+    <option>Aguacalientes</option>
+    <option>Campeche</option>
+    <option>Colima</option>
+ 
+  </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputcp">CP:</label>
+      <input type="text" class="form-control" id="txtCP">
+    </div>
+  </div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCorreo">E-mail (Para recibir facturas):</label>
+      <input type="text" class="form-control" id="txtEmail">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputNom">Nombre:</label>
+      <input type="text" class="form-control" id="txtNombre">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputAppe">Apellidos:</label>
+      <input type="text" class="form-control" id="txtApellidos">
+    </div>
+  </div>
+          <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputTel">Teléfono:</label>
+      <input type="text" class="form-control" id="txtTelefono">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputfax">Fax:</label>
+      <input type="text" class="form-control" id="txtFax">
+    </div>
+  </div>
+          <div align="center">
+          <button type="submit" class="btn btn-success">Agregar cliente</button>
+          </div>
+</form>
+          </div>
+
+
+
+				</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
